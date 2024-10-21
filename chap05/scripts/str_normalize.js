@@ -1,0 +1,10 @@
+let type = ['NFD', 'NFC', 'NFKD', 'NFKC'];
+let list = ['ギガ', 'キ゛カ゛', 'ｷﾞｶﾞ', '㌐'];
+
+for (let t of type) {
+    console.log(`■${t}`);
+    for (let l of list) {
+        console.log(`${l} => ${l.normalize(t)}`);
+    }
+}
+//配列などを列挙するfor...of命令
