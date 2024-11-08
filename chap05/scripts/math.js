@@ -23,12 +23,3 @@ console.log(Math.atan2(1, 3));   //結果：0.3217505543966422
 console.log(Math.log(10));   //結果：2.302585092994046
 console.log(Math.exp(3));   //結果：20.085536923187668
 console.log(Math.expm1(1));   //結果：1.718281828459045
-
-let min = 50;
-let max = 100;
-console.log(Math.floor(Math.random() * (max - min + 1)) + min); //結果：任意の数
-
-console.log(Math.floor(Math.random() * 101));   //結果：任意の数
-
-let list = ['みかん', 'りんご', 'ぶどう', 'すいか', 'なし'];
-console.log(list[Math.floor(Math.random() * list.length)]); //結果：任意の要素
