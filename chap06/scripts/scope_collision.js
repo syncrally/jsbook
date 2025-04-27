@@ -1,6 +1,6 @@
 let scope = 'Global Scope';
 
-function getValue(params) {
+function getValue() {
     let scope = 'Block Scope';
     return scope;
 }
