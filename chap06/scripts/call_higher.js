@@ -3,7 +3,7 @@
 function arrayWalk(data, callback) {
     for (let [key, value] of data.entries()) {
         // 引数callbackで指定された関数を呼び出し
-        // 後で定義する関数を前もってcallbackとしておく
+        // 後で定義する関数を前もってcallbackとしておく、この場合showElement()
         callback(value, key);
     }
 }
